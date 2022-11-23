@@ -6,7 +6,7 @@ class Cursor:
         mouse.move(x, y , absolute=True, duration=duration)
 
     def left_click():
-        mouse.double_click()
+        mouse.click()
 
     def right_click():
         mouse.right_click()
