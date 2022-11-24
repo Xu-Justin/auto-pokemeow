@@ -37,6 +37,9 @@ def iterate(input_panel, color_panel, colors, color_tolerance, balls, commands, 
     color = utils.match_color(average_color, colors, color_tolerance)
     if color is None:
         return log.error(f'failed match_color with average_color : {average_color} and color_tolerance : {color_tolerance}')
+    if color is "captcha":
+        log.warn(f'CAPTCHA! Please fill immediately!')
+        raise KeyboardInterrupt
     
     rarity = color
     ball = utils.match_ball(rarity, balls)

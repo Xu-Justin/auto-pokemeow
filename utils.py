@@ -94,9 +94,9 @@ class config:
     def load_kwargs(cfg):
         _kwargs = cfg.get('kwargs', {})
         kwargs = {}
-        config._load_kwargs(kwargs, _kwargs, 'sleep_after_iteration', [7, 10])
+        config._load_kwargs(kwargs, _kwargs, 'sleep_after_iteration', [7, 20])
         config._load_kwargs(kwargs, _kwargs, 'sleep_after_command', [1.5, 2.5])
-        config._load_kwargs(kwargs, _kwargs, 'sleep_after_move_cursor', [0, 2])
+        config._load_kwargs(kwargs, _kwargs, 'sleep_after_move_cursor', [0.5, 2])
         config._load_kwargs(kwargs, _kwargs, 'cursor_duration', [0.1, 0.5])
         config._load_kwargs(kwargs, _kwargs, 'sleep_after_iteration_preview', 1)
         return kwargs

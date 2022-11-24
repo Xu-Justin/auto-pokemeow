@@ -8,7 +8,7 @@
         "super_rare" : [248, 244, 7],
         "legendary" : [160, 7, 248],
         "shiny_purple" : [255, 153, 204],
-        "shiny_red" : [234, 37, 11],
+        "captcha" : [234, 37, 11],
         "discord_background" : [54, 57, 63],
         "discord_background_dark" : [32, 34, 37]
     },
@@ -16,15 +16,15 @@
     "balls" : {
         "pokeball" : {
             "panel" : [390, 925, 440, 945],
-            "catch_rarity" : ["common", "uncommon"]
+            "catch_rarity" : ["common", "uncommon", "rare"]
         },
         "greatball" : {
             "panel" : [460, 925, 510, 945],
-            "catch_rarity" : ["rare"]
+            "catch_rarity" : []
         },
         "ultraball" : {
             "panel" : [535, 925, 585, 945],
-            "catch_rarity" : ["super_rare", "legendary", "shiny_purple", "shiny_red"]
+            "catch_rarity" : ["super_rare", "legendary", "shiny_purple"]
         },
         "masterball" : {
             "panel" : [605, 925, 655, 945],
