@@ -45,11 +45,11 @@ Determine where to save preview of color panel.
 
 ## Configurations
 
-* Panel
-A panel is an area of the screen which is represented by an array `[top, left, bottom, right]`
+* **Panel**
+represented by `[top, left, bottom, right]`
 
-* Color
-A color is represented by an array `[red, green, blue]`
+* **Color**
+represented by `[red, green, blue]`
 
 * `input_panel`
 Area to input commands.
