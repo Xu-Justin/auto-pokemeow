@@ -32,7 +32,7 @@ python main.py --run
 Run the program and start catching pokemons.
 
 * `--preview`
-Run the program in simulation condition.
+Run the program in simulation environment.
 
 * `--config {path/to/json}`
 Determine which configuration json file to use. (default: `config.json`)
@@ -71,3 +71,21 @@ Rarity to cacth using the ball.
 
 * `commands`
 Command to be inputted to `input_panel`.
+
+## Modifying Configuration
+
+After modifying configuration JSON, it's recommended to check and test the program on simulation environment. 
+
+The following commands will run the program in simulation environment (without click and mouse movement) and check your panels configuration.
+
+```
+python main.py --preview --output_panels panels.png --output_color_panel color_panel.png 
+```
+
+While running above commands,
+
+* Check detected color and selected ball on console.
+
+* Check panels positions from `panels.png`
+
+* Check color panel from `color_panel.png`
