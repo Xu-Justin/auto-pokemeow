@@ -33,7 +33,6 @@ Run the program and start catching pokemons.
 
 * `--preview`
 Run the program in simulation condition.
-Use this arguments to check pokemon colors and balls are detect and select properly.
 
 * `--config {path/to/json}`
 Determine which configuration json file to use. (default: `config.json`)
