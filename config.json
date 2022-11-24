@@ -1,6 +1,6 @@
 {
     "input_panel" : [400, 990, 500, 1015],
-    "color_panel" : [384, 700, 387, 850],
+    "color_panel" : [385, 700, 386, 850],
     "colors" : {
         "common" : [8, 85, 251],
         "uncommon" : [19, 181, 231],
@@ -16,11 +16,11 @@
     "balls" : {
         "pokeball" : {
             "panel" : [390, 925, 440, 945],
-            "catch_rarity" : ["common", "uncommon", "rare"]
+            "catch_rarity" : ["common", "uncommon"]
         },
         "greatball" : {
             "panel" : [460, 925, 510, 945],
-            "catch_rarity" : []
+            "catch_rarity" : ["rare"]
         },
         "ultraball" : {
             "panel" : [535, 925, 585, 945],
