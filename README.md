@@ -79,7 +79,7 @@ After modifying configuration JSON, it's recommended to check and test the progr
 The following commands will run the program in simulation environment (without click and mouse movement) and check your panels configuration.
 
 ```
-python main.py --preview --output_panels panels.png --output_color_panel color_panel.png 
+python main.py --run --output_panels panels.png --output_color_panel color_panel.png 
 ```
 
 While running above commands,
